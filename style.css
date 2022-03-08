@@ -127,12 +127,40 @@ body{
     height: 100%;
     background: blue;
     border-radius: 8px;
+    animation-name: Rudresh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 2s step-end; 
+}
+@keyframes Rudresh{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
 }
 .result1{
     width: 91%;
     height: 100%;
     background: blue;
     border-radius: 8px;
+    animation-name: Rudreshr;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 3s step-end; 
+}
+@keyframes Rudreshr{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 91%;
+    }
 }
 .text3{
     color: white;
@@ -199,25 +227,81 @@ body{
     width: 35%;
     height: 100%;
     background: blue;
-    border-radius: 10px;  
+    border-radius: 10px;
+    animation-name: Rudresh0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 2s step-end;  
 }
 .skill1{
     width: 15%;
     height: 100%;
     background: blue;
-    border-radius: 10px;  
+    border-radius: 10px;
+    animation-name: Rudresh1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 2s step-end;  
 }
 .skill2{
     width: 0%;
     height: 100%;
     background: blue;
     border-radius: 10px;  
+    animation-name: Rudresh2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 2s step-end;
 }
 .skill3{
     width: 65%;
     height: 100%;
     background: blue;
-    border-radius: 10px;  
+    border-radius: 10px;
+    animation-name: Rudresh3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+    animation-delay: 0.5s;
+    transition: 2s step-end;
+}
+@keyframes Rudresh0{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 35%;
+    }
+}
+@keyframes Rudresh1{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 15%;
+    }
+}
+@keyframes Rudresh2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 0%;
+    }
+}
+@keyframes Rudresh3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 65%;
+    }
 }
 .percentage h2{
     color: white;
